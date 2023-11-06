@@ -32,6 +32,12 @@ export default function Home() {
   
     return diferencaEmMeses;
   }
+  const handleDownload = () => {
+    const downloadLink = document.createElement('a');
+    downloadLink.href = '/meu_arquivo.pdf'; // O caminho para o arquivo na pasta "public"
+    downloadLink.download = 'meu_arquivo.pdf'; // Nome do arquivo para download
+    downloadLink.click();
+  };
   const especialidades = [
     {
       Nome: "Express",
@@ -140,7 +146,7 @@ export default function Home() {
         <h3 className="md:text-[44px] font-bold text-center text-3xl mb-20">Projetos</h3>
         <div className="flex justify-center items-center">
           <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100 w-32 md:block hidden' onClick={slideLeft} size={40} />
-          <div id="slider" className=" w-full md:h-full h-96 overflow-auto md:flex overflow-x-scroll scroll whitespace-nowrap scroll-smooth [&::-webkit-scrollbar]:hidden">
+          <div id="slider" className=" w-full md:h-full h-96 overflow-auto md:flex overflow-x-scroll border-b-2 md:border-b-0 scroll whitespace-nowrap scroll-smooth [&::-webkit-scrollbar]:hidden">
             <CardItems />
           </div>
           <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100 w-32 md:block hidden' onClick={slideRight} size={40} />
@@ -150,7 +156,9 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center mb-10">
           <h3 className="md:text-5xl text-3xl font-bold text-center md:mb-20">Curriculo</h3>
           <p className="text-5xl text-center cursor-pointer" >
+            <button onClick={handleDownload}>
             <BiDownload />
+            </button>
           </p>
         </div>
         <div className="flex justify-center flex-col items-center">
@@ -177,7 +185,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex justify-between items-center px-24 py-10 w-full flex-wrap">
+      <section className="flex justify-between items-center md:flex-row border-t-2 pt-10 gap-10 flex-col md:px-24 md:py-10 w-full md:flex-wrap">
         <Link href={"https://www.figma.com/file/jMkMlRb0tuXLjsWrQOiCQj/Portif%C3%B3lio?type=design&node-id=0%3A1&mode=design&t=tKMg2yIodwbKW0rK-1"} className="flex justify-center items-center flex-col cursor-pointer">
           <FiFigma className="text-6xl" />
           <p>Figma do projeto</p>
