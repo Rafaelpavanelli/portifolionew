@@ -1,0 +1,52 @@
+{
+  "Projetos": [
+    {
+      "Nome": "Advocacia",
+      "Plataforma": "WEB",
+      "Background": "/Images/Advocacia.png",
+      "Description": "Site de Advocacia criado em entrevista de emprego utilizando React e SASS",
+      "Linguagem": "React,Sass",
+      "Github": "https://github.com/Rafaelpavanelli/Advocacia"
+    },
+    {
+      "Nome": "Hamburgueria",
+      "Plataforma": "WEB",
+      "Background": "/Images/hamburgueria.png",
+      "Description": "Site de hamburgueria criado para testar as minahs habilidades de HTML e CSS.",
+      "Linguagem": "HTML,CSS e Javascript",
+      "Github": "https://github.com/Rafaelpavanelli/Design-Site-Hamburgueria"
+    },
+    {
+      "Nome": "Tela de login",
+      "Plataforma": "WEB",
+      "Background": "/Images/LoginJquery.png",
+      "Description": "Tela de login desenvolvida utilizando HTML,CSS e Javascript. Foi uma das primeiras telas que criei",
+      "Linguagem": "HTML,CSS e Javascript",
+      "Github": "https://github.com/Rafaelpavanelli/Tela-de-Login"
+    },
+    {
+      "Nome": "Tela de Login",
+      "Plataforma": "WEB",
+      "Background": "/Images/loginRoxo.png",
+      "Description": "Tela de Login criada com base em um video de Youtube. A tela não é igual mas a ideia foi tirada de lá.",
+      "Linguagem": "React, SCSS",
+      "Github": "https://github.com/Rafaelpavanelli/Tela-de-Login"
+    },
+    {
+      "Nome": "Portifólio",
+      "Plataforma": "WEB",
+      "Background": "/Images/portifolio.png",
+      "Description": "Primeiro portifólio criado por mim.",
+      "Linguagem": "React, SCSS,Firebase",
+      "Github": "https://github.com/Rafaelpavanelli/Portifolio"
+    },
+    {
+      "Nome": "Share my horse",
+      "Plataforma": "WEB",
+      "Background": "/Images/sharemyhorse.png",
+      "Description": "Projeto para realizar cadastros de cavalos para rodeios e eventos.",
+      "Linguagem": "React, SCSS,Firebase",
+      "Github": "#"
+    }
+  ]
+}
