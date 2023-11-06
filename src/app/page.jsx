@@ -137,7 +137,7 @@ export default function Home() {
         </div>
       </motion.div>
       <motion.div className="" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-        <h3 className="md:text-[44px] font-bold text-center text-3xl mb-10">Projetos</h3>
+        <h3 className="md:text-[44px] font-bold text-center text-3xl mb-20">Projetos</h3>
         <div className="flex justify-center items-center">
           <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100 w-32 md:block hidden' onClick={slideLeft} size={40} />
           <div id="slider" className=" w-full md:h-full h-96 overflow-auto md:flex overflow-x-scroll scroll whitespace-nowrap scroll-smooth [&::-webkit-scrollbar]:hidden">
@@ -148,29 +148,29 @@ export default function Home() {
       </motion.div>
       <section className="md:grid md:grid-cols-2 mt-8 mb-10" data-aos="fade-up">
         <div className="flex flex-col justify-center items-center mb-10">
-          <h3 className="md:text-5xl text-3xl font-bold text-center md:mb-10">Curriculo</h3>
+          <h3 className="md:text-5xl text-3xl font-bold text-center md:mb-20">Curriculo</h3>
           <p className="text-5xl text-center cursor-pointer" >
             <BiDownload />
           </p>
         </div>
         <div className="flex justify-center flex-col items-center">
-          <h3 className="md:text-5xl text-3xl font-bold text-center md:mb-10 mb-6">Links</h3>
+          <h3 className="md:text-5xl text-3xl font-bold text-center md:mb-20 mb-20">Links</h3>
           <div className="flex gap-8 flex-col md:flex-row">
             <a
               href="https://github.com/Rafaelpavanelli"
-              className="text-3xl text-center flex flex-col  items-center"
+              className="text-2xl text-center flex flex-col  items-center"
             >
               <BiLogoGithub /> Github
             </a>
             <a
               href="https://www.linkedin.com/in/rafael-pavanelli-59807a1a4/"
-              className="text-3xl text-center flex flex-col  items-center"
+              className="text-2xl text-center flex flex-col  items-center"
             >
               <BiLogoLinkedinSquare /> Linkedin
             </a>
             <a
               href="mailto:gvxvvfbgx@gmail.com?subject=&body="
-              className="text-3xl text-center flex flex-col  items-center"
+              className="text-2xl text-center flex flex-col  items-center"
             >
               <AiOutlineMail /> Gmail
             </a>
