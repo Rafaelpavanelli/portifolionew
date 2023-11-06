@@ -4,7 +4,7 @@ import { Roboto } from 'next/font/google'
 import * as React from "react";
 
 export const metadata: Metadata = {
-  title: 'portifolio',
+  title: 'Portifolio',
   description: 'portifolio ',
 }
 const roboto = Roboto({ subsets: ['latin'], weight: ['300', '400', '500', '700', ] })
